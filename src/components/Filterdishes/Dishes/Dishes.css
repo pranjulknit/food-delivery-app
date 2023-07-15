@@ -1,0 +1,30 @@
+.dishes-container{
+   
+   display: flex;
+   flex-direction: column;
+   width: 150px;
+   margin-right: 20px;
+   align-items: center;
+}
+
+
+
+.dishes-image{
+   cursor: pointer;
+   height: 150px;
+   width: fit-content;
+   border-radius: 50%;
+}
+
+
+.dishes-paragraph{
+    font-family: Okra, Helvetica, sans-serif;
+    /* background-color: white; */
+    font-weight: 500;
+    padding-top: 1px;
+    width: fit-content;
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
+   
+}
