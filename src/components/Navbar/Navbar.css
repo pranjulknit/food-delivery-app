@@ -1,19 +1,24 @@
 .navbar-container {
     display: flex;
     /* background-color: red; */
-    padding: 15px 10%;
+    padding: 10px 10%;
     height: 60px;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-body, button, input, input::placeholder {
+
+body,
+button,
+input,
+input::placeholder {
     font-family: Okra, Helvetica, sans-serif;
-    
+    color: grey;
     font-size: 0.8rem;
 }
+
 .navbar-logo {
     height: 30px;
     width: fit-content;
-    margin: 5px 30px;
+    margin: 5px 0px;
 }
 
 
@@ -22,33 +27,75 @@ body, button, input, input::placeholder {
     display: flex;
     width: 700px;
     height: 50px;
-     border: 1px solid #d9d7d7; 
+    border: 1px solid #d9d7d7;
     border-radius: 10px;
     box-shadow: 1px 1px #d9d7d7;
     justify-content: flex-start;
 }
-.navbar-location{
+
+.navbar-location {
     display: flex;
     align-items: center;
     padding: 0px 5px;
+
+}
+
+
+.navbar-search {
+    width: 100%;
+    display: flex;
+    align-items: center;
     
 }
 
-p{
-    margin: 0px 5px;
-    
-}
-.navbar-search{
-    
-    display: flex;
-    align-items: center;
-}
 /* 
 .navbar-search-vertical{
     
 } */
 
+/*Search Icon and location input */
+.navbar-input-location,
+.navbar-input-search {
+    border: none;
+    outline: transparent;
+    margin-left: 5px;
+    font-weight: 500;
 
-.navbar-button{
+    /* background-color: red; */
+}
 
+.navbar-input-location {
+    width: 100%;
+}
+
+.navbar-input-search {
+    width: 60%;
+}
+
+.navbar-login-signup-button-container {
+
+    
+    /* margin-left: 30px; */
+    display: flex;
+    align-items: center;
+   /* background-color: red; */
+   padding-left:15px;
+}
+
+
+.navbar-login-button{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.navbar-signup-button{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: white;
+    cursor: pointer;
 }

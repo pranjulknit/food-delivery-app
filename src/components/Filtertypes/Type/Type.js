@@ -9,7 +9,7 @@ function Type({image,text}){
             <img className="filter-type-image" src={image} alt="filter"/>
             </div>
         
-        <p>{text}</p>
+        <p className="filter-type-text">{text}</p>
         </div>
     );
 }
