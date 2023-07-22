@@ -1,3 +1,11 @@
 .rests-container{
     padding: 10px 10%;
 }
+
+
+.rests-header{
+    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
+    margin-top: 45px;
+}
