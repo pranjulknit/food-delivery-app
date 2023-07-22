@@ -2,7 +2,7 @@
 
 
 .rest-container {
-    width: 330px;
+    width: 300px;
     height: auto;
 
 }
@@ -12,7 +12,7 @@
 } */
 .rest-image-image {
     position: absolute;
-    width: 330px;
+    width: 300px;
     height: 230px;
     border-radius: 20px;
 }
@@ -124,6 +124,6 @@
 }
 
 .rest-max-safety-text {
-    width: 270px;
+    width: 250px;
     text-align: start;
 }

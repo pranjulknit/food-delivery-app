@@ -30,7 +30,7 @@ function Restaurant(props){
             <div className="rest-max-safety-border"></div>
             <div className="rest-max-safety-image-text">
            <img className="rest-max-safety-image"src="https://b.zmtcdn.com/data/o2_assets/0b07ef18234c6fdf9365ad1c274ae0631612687510.png?output-format=webp" alt="max-safety"/>
-           <p className="rest-max-safety-text">Follows all Max Safety measures to ensure your food is safe</p>
+          {props.safety==="true"? <p className="rest-max-safety-text">Follows all Max Safety measures to ensure your food is safe</p>:<p></p>}
            </div>
            </div>
         </div>

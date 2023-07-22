@@ -9,3 +9,11 @@
     font-weight: 600;
     margin-top: 45px;
 }
+
+.rests-restaurant{
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: auto;
+    grid-row-gap: 80px;
+    grid-column-gap: 15px;
+}
