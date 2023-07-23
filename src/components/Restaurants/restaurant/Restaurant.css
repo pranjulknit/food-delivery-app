@@ -72,11 +72,14 @@
     color: #ffffff;
     font-weight: 700;
     border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 32px;
     margin-top: 25px;
     height: 20px;
     padding-left: 3px;
-    padding-top: 4px;
+    /* padding-top: 4px; */
 
 }
 

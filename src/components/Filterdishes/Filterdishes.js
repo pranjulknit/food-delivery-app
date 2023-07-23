@@ -2,15 +2,19 @@ import React from "react";
 
 import "./Filterdishes.css";
 
-import Dishes from"./Dishes/Dishes";
+// import Dishes from"./Dishes/Dishes";
 import {DishesData} from "./constants";
+import Circularcard from "../../common/Circularcard/Circularcard";
+
+import Text from "../../common/Text/Text";
 function Filterdishes(){
     return (
         <div className="filter-dishes">
-            <p className="filter-dishes-header">Inspiration for your first order</p>
+            < Text text="Inspiration for your first order" variant="h1"/>
+            {/* <p className="filter-dishes-header">Inspiration for your first order</p> */}
             <div className="filter-dishes-dishes">
                {DishesData.map((value)=>(
-                  <Dishes img={value.image} text={value.text}/>
+                  <Circularcard image={value.image} text={value.text} textVariant="h3"/>
                ))}
             </div>
         </div>

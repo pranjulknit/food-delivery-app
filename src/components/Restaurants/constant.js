@@ -19,14 +19,14 @@ export const restaurantData = [
         rating: "3.7",
         price: "150",
         time: "27 min",
-        safety: "true",
+        safety: null,
 
     },
 
     {
         id: 3,
         image: "https://b.zmtcdn.com/data/pictures/0/20112010/f671b303ff8751f5d7d0853f9952128b_o2_featured_v2.jpg?output-format=webp",
-        name: "uncle Kachodi",
+        name: "Uncle Kachodi",
         location: "Street Food",
         rating:"3.5",
         price: "150",
@@ -42,7 +42,7 @@ export const restaurantData = [
         rating:"3.6",
         price: "150",
         time: "29 min",
-        safety: "true",
+        safety: null,
     },
     {
         id: 5,

@@ -11,7 +11,7 @@ function Restaurants(){
              <div className="rests-restaurant">
               {
               restaurantData.map((value)=>(
-                <Restaurant image={value.image} name={value.name} location={value.location} rating={value.rating} price={value.price} time={value.time} safety = "true"/>
+                <Restaurant image={value.image} name={value.name} location={value.location} rating={value.rating} price={value.price} time={value.time} safety = {value.safety}/>
               ))
               }
               </div>

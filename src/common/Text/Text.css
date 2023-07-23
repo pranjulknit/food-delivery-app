@@ -1,0 +1,29 @@
+.text-h1,.text-h3,.text-h4,.text-bold-p,.text-p2{
+    color:black;
+}
+
+.text-h1 {
+    font-size: 32px;
+    font-weight: 600;
+    
+}
+
+.text-h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text-h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text-bold-p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text-p2 {
+    font-size: 14px;
+    font-weight: 500;
+}
