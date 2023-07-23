@@ -90,6 +90,16 @@ export const restaurantData = [
 
 
 
+    },
+    {
+        id:10,
+        name:"Domino's Pizza",
+        location:"Pizza",
+        price:"150",
+        time:"20 min",
+        rating:"4.0",
+        safety:"true",
+
     }
 
 ]
