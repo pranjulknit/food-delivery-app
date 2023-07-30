@@ -1,0 +1,12 @@
+.logo-container{
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.india-logo{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+
+}

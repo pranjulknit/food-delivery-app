@@ -94,6 +94,7 @@ export const restaurantData = [
     {
         id:10,
         name:"Domino's Pizza",
+        image:"https://b.zmtcdn.com/data/pictures/8/3400208/bd8dfea96f558f70726e9adeea69ad59_o2_featured_v2.jpg?output-format=webp",
         location:"Pizza",
         price:"150",
         time:"20 min",

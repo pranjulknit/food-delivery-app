@@ -20,7 +20,7 @@ function Text({text,variant}){
             case "bold-p":
                 return "text-bold-p";
             case "p1":
-                return "";
+                return "text-p1";
             case "p2":
                 return "text-p2";
             default:

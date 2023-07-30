@@ -1,0 +1,21 @@
+
+
+
+.mini-container{
+    display: flex;
+    align-items: center;
+
+    margin-left: 30px;
+    border: 1px solid #E8E8E8;
+}
+
+
+.frontlogo{
+    height: 15px;
+}
+.icon{
+    height: 15px;
+}
+.mini-text{
+    color: black;
+}
